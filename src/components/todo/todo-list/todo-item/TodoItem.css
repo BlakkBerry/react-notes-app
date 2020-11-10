@@ -1,0 +1,13 @@
+.close {
+    float: unset !important;
+    line-height: 2 !important;
+}
+
+.label-text {
+    transition: all ease 0.35s;
+}
+
+.done {
+    text-decoration: line-through;
+    color: #FF0000;
+}

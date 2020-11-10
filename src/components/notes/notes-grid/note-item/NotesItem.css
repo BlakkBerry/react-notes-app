@@ -1,0 +1,43 @@
+.note {
+    -webkit-box-shadow: 9px 9px 12px -6px rgba(0, 0, 0, 0.64);
+    box-shadow: 9px 9px 12px -6px rgba(0, 0, 0, 0.64);
+    background-color: #D5DEE2;
+}
+
+.trash {
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    color: #494949;
+}
+
+.trash:hover {
+    opacity: 50%;
+}
+
+.tag {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.34);
+    padding: .02rem .3rem;
+    font-size: 12px;
+    border: #ffffff 1px solid;
+    color: #212529 !important;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: #f50739 0px 0px 5px, #f50739 0px 0px 10px, #f50739 0px 0px 15px, #f50739 0px 0px 20px, #f50739 0px 0px 30px, #f50739 0px 0px 40px, #f50739 0px 0px 50px, #f50739 0px 0px 75px;
+  }
+  to {
+    text-shadow: #f50739 0px 0px 15px, #f50739 0px 0px 20px, #f50739 0px 0px 25px, #f50739 0px 0px 30px, #f50739 0px 0px 40px, #f50739 0px 0px 50px, #f50739 0px 0px 60px, #f50739 0px 0px 85px;
+  }
+}
+
+.tag.active {
+    color: #fff !important;
+    /*text-shadow: #f50739 0px 0px 5px, #f50739 0px 0px 10px, #f50739 0px 0px 15px, #f50739 0px 0px 20px, #f50739 0px 0px 30px, #f50739 0px 0px 40px, #f50739 0px 0px 50px, #f50739 0px 0px 75px;*/
+    animation: glow 1s ease-in-out infinite alternate !important;
+}
+
+.date {
+    color: #494949;
+}

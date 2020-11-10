@@ -1,25 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import React from "react";
+import 'bootstrap/dist/css/bootstrap.min.css'
+import TodoPage from "./components/todo/TodoPage";
+import NotesPage from "./components/notes/NotesPage";
+import AboutPage from "./components/about/about-page";
+import NavBar from "./components/main-layout/nav-bar/NavBar";
+import {BrowserRouter as Router, Switch, Route, Redirect} from "react-router-dom/";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <Router>
+            <div className="App">
+                <NavBar/>
+                <Switch>
+                    <Redirect exact from="/" to="/about"/>
+                    <Route path="/about" exact component={AboutPage}/>
+                    <Route path="/notes" exact component={NotesPage}/>
+                    <Route path="/todo" exact component={TodoPage}/>
+                    <Route component={() => <h1 className="text-center">Page not found!</h1>}/>
+                </Switch>
+            </div>
+        </Router>
+    );
 }
+
+
 
 export default App;

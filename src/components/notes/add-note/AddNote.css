@@ -1,0 +1,69 @@
+.active-amber-textarea.md-form label.active {
+  color: #F50739;
+}
+.amber-textarea textarea.md-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #F50739;
+  box-shadow: 0 1px 0 0 #F50739;
+}
+.amber-textarea.md-form .prefix.active {
+  color: #F50739;
+}
+.active-amber-textarea.md-form textarea.md-textarea:focus:not([readonly])+label {
+  color: #F50739;
+}
+
+.create {
+  background-color: #F50739 !important;
+  border: none;
+  height: 2rem;
+  display: inline-flex;
+  align-items: center;
+}
+
+.form-control:focus {
+  color: red;
+  border-bottom: 1px solid #F50739;
+  box-shadow: 0 1px 0 0 #F50739 !important;
+}
+
+.searchTitle {
+  cursor: pointer;
+}
+
+.searchTitle:hover {
+  background-color: #F50739;
+  border-color: #F50739 !important;
+}
+
+.searchTitle:active {
+  background-color: #ffbfce !important;
+  border-color: #ffbfce !important;
+}
+
+.colors {
+  display: inline-block;
+  width: 100%;
+}
+
+.color-palette {
+  display: flex;
+  padding: 1rem;
+}
+
+
+.color {
+  width: 30px;
+  height: 30px;
+  background-color: #D5DEE2;
+  margin-right: 10pt;
+  border-radius: 50%;
+  cursor: pointer;
+  text-align: center;
+}
+
+.color.active:after {
+  content: '✓';
+  color: rgba(61, 61, 61, 0.85);
+  position: relative;
+  top: 2px;
+}

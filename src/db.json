@@ -1,0 +1,70 @@
+{
+  "todos": [
+    {
+      "title": "Buy beer",
+      "completed": false,
+      "date": "2020-11-08T11:58:30.324Z",
+      "id": 1
+    },
+    {
+      "title": "Finish the lab",
+      "completed": false,
+      "date": "2020-11-08T11:58:36.323Z",
+      "id": 2
+    },
+    {
+      "title": "Pass the assembler",
+      "completed": false,
+      "date": "2020-11-08T11:58:42.378Z",
+      "id": 3
+    }
+  ],
+  "notes": [
+    {
+      "id": 1,
+      "title": "Sample 1",
+      "text": "Ignorant branched humanity led now marianne too strongly entrance. Rose to shew bore no ye of paid rent form. Old design are dinner better nearer silent excuse. She which are maids boy sense her shade. Considered reasonable we affronting on expression in. So cordial anxious mr delight. Shot his has must wish from sell nay. Remark fat set why are sudden depend change entire wanted. Performed remainder attending led fat residence far. ",
+      "date": "2020-11-08T11:58:42.378Z",
+      "tags": [
+        "todo",
+        "test",
+        "try",
+        "urgently"
+      ],
+      "color": "#D2FF94"
+    },
+    {
+      "id": 2,
+      "title": "Sample 2",
+      "text": "By impossible of in difficulty discovered celebrated ye. Justice joy manners boy met resolve produce. Bed head loud next plan rent had easy add him. As earnestly shameless elsewhere defective estimable fulfilled of.",
+      "date": "2020-11-08T11:58:42.378Z",
+      "tags": [
+        "todo",
+        "shopping"
+      ],
+      "color": "#ABFFF0"
+    },
+    {
+      "id": 3,
+      "title": "Sample 3",
+      "text": "Fulfilled direction use continual set him propriety continued. Saw met applauded favourite deficient engrossed concealed and her. Concluded boy perpetual old supposing. Farther related bed and passage comfort civilly. Dashwoods see frankness objection abilities the. As hastened oh produced prospect formerly up am. Placing forming nay looking old married few has. Margaret disposed add screened rendered six say his striking confined. ",
+      "date": "2020-11-08T11:58:42.378Z",
+      "tags": [
+        "try",
+        "test"
+      ],
+      "color": "#FFD784"
+    },
+    {
+      "id": 4,
+      "title": "Sample 4",
+      "text": "Perpetual sincerity out suspected necessary one but provision satisfied. Respect nothing use set waiting pursuit nay you looking.",
+      "date": "2020-11-08T11:58:42.378Z",
+      "tags": [
+        "remember",
+        "todo"
+      ],
+      "color": "#FFFF91"
+    }
+  ]
+}
